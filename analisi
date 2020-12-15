@@ -1,0 +1,35 @@
+Gruppo: 3
+Componenti: Angelo Liu, Francesco Veronese, Orlando Cioffi, Gianni Sela
+Progetto: 1
+
+Linguaggio utilizzato: C#
+
+Classi:
+    • Main
+    • public “Auto”
+    • public “Tempo”
+Main:
+    • Attributi:
+        ◦ 1 variabile tipo Auto;
+        ◦ 1 variabile tipo Tempo;
+        ◦ 1 variabile tipo string per memorizzare l’opzione scelta;
+        ◦ 1 variabile tipo boole inizializzata come false;
+    • Funzioni:
+        ◦ nessuna;
+    • 1 stringa visualizza i numeri delle auto vendute e quelle presenti nel parco, poi visualizza anche l’ora;
+    • 1 stringa visualizza , tramite un elenco puntato, le 4 operazioni possibili che sono : registrare un’auto, eliminare un’auto registrata, cercare auto, terminare il programma;
+    • 1 do-while per scegliere altre opzioni, avetnte condizione di uscita la variabile tipo bool vera:
+        ◦ 1 switch, avente come parametro la variabile tipo string, richiama differenti metodi delle classi “Auto” e “Tempo” o  , e ha un default per avvertire l’utente che ha sbagliato;
+Tempo:
+Auto:
+    • Attributi:
+        ◦ 1 variabile tipo bool;
+        ◦ 4 variabili tipo int;
+        ◦ 5 variabili tipo string;
+        ◦ 1 array unidimensionale tipo Auto;
+    • Funzioni:
+        ◦ public void, inizializzare gli elementi dell’array tipo Auto;
+        ◦ eventuali get e set delle variabili (eccetto l’array);
+        ◦ public void, acquisizione dati e assegnazione ad un elemento dell’array e serializzazione
+        ◦ public void, ricerca elemento, ed eliminazione di esso dall’array;
+        ◦ public void, ricerca elemento, creazione filtro
